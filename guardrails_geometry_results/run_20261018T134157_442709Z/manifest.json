@@ -1,0 +1,72 @@
+{
+  "created_utc": "2026-10-18T13:42:02.761622+00:00",
+  "data": {
+    "repo": "allenai/wildguardmix",
+    "revision": "d29c47f41c8b51348b5c8e8c81c039b3132b66d1",
+    "config": "wildguardtest",
+    "split": "test"
+  },
+  "data_hash": "d973e83e8c42c0f8c644dad0ba2741ce0a177ae82a3e96023dab3ffd682ff0af",
+  "audit": {
+    "input_rows": 1725,
+    "missing_removed": 26,
+    "text_duplicates": {
+      "conflicting_rows": 0,
+      "duplicate_rows": 0
+    },
+    "truncated_before_token_dedup": 3,
+    "token_duplicates": {
+      "conflicting_rows": 0,
+      "duplicate_rows": 0
+    },
+    "clean_rows_before_sampling": 1699,
+    "analysis_rows": 1699,
+    "truncated_analysis_rows": 3
+  },
+  "models": {
+    "base": {
+      "path": "/Users/slvic/ANYA/NLP_1_HW2_BERT/.verification/rq4_base",
+      "sha256": "6937407161bcfbb3b43ab4ed718c192b6c35e8aec542b31c8cc31c9a55694cbf",
+      "cached_repo": "intfloat/e5-small-v2",
+      "cached_revision": "ffb93f3bd4047442299a41ebb6fa998a38507c52"
+    },
+    "finetuned": {
+      "path": "/Users/slvic/ANYA/NLP_1_HW2_BERT/.cache/guardrails/hub/models--pineee--e5-small-v2-hivetrace-finetune-CE-SupCon/snapshots/d7905a98d3000ce2690c09171ba02ab3e9315add",
+      "sha256": "a7774dc7a3320f369c8dcee901672b304720c0994dd64f65cd3bccf9588497c5",
+      "cached_repo": "pineee/e5-small-v2-hivetrace-finetune-CE-SupCon",
+      "cached_revision": "d7905a98d3000ce2690c09171ba02ab3e9315add"
+    },
+    "ce": {
+      "path": "/Users/slvic/ANYA/NLP_1_HW2_BERT/.verification/rq4_ce",
+      "sha256": "900381e39b7cc88c96038737f4a0b543710f4fff55b34391a16fdf8dcb684b46",
+      "cached_repo": "pineee/e5-small-v2-hivetrace-finetune-CE",
+      "cached_revision": "7c86195053050b63ef4330d45db15ad9dd473265"
+    }
+  },
+  "versions": {
+    "torch": "2.14.1",
+    "transformers": "4.57.6",
+    "datasets": "4.5.0",
+    "huggingface-hub": "0.36.2",
+    "numpy": "2.5.3",
+    "scipy": "1.18.1",
+    "scikit-learn": "1.9.1",
+    "pandas": "3.0.6"
+  },
+  "seed": 42,
+  "max_length": 512,
+  "initial_batch_size": 32,
+  "n_pairs": 100000,
+  "knn_k": [
+    5,
+    10,
+    20
+  ],
+  "twonn_discard": 0.1,
+  "tokenizer_hash": "085575d19114b01f0a3f7b424c8c4e2f1ac011ade2fc934ee8070035596e17d9",
+  "inference": "FP32/eval/masked mean/last layer",
+  "geometry": "L2 normalized, float64",
+  "device": "cpu",
+  "checkpoint_loss_family": "CE + SupCon",
+  "review_ratio": 0.5
+}

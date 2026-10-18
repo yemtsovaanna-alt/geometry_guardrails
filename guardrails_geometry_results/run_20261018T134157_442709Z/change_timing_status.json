@@ -1,0 +1,10 @@
+{
+  "review_ratio": 0.5,
+  "flagged_classes": [
+    "safe"
+  ],
+  "first_change_step": null,
+  "loss_at_first_change": null,
+  "published_model_step": null,
+  "reason": "Only endpoint weights; archive batch cosines cannot reconstruct held-out geometry over time."
+}

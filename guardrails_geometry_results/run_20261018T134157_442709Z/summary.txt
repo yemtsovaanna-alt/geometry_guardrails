@@ -1,0 +1,22 @@
+RQ4: E5 base, CE, CE + SupCon
+
+n=1699; data_hash=d973e83e8c42c0f8c644dad0ba2741ce0a177ae82a3e96023dab3ffd682ff0af
+
+                           base        ce  finetuned  ce_minus_base  joint_minus_ce
+mean_cosine_mc         0.798720  0.251535   0.856881      -0.547185        0.605346
+mean_cosine_exact      0.798759  0.253111   0.857288      -0.545648        0.604177
+participation_ratio   80.617196  2.381809   1.495064     -78.235387       -0.886744
+pc1_share              0.070680  0.645468   0.817575       0.574788        0.172107
+variance_trace         0.201123  0.746449   0.142628       0.545327       -0.603821
+twonn_id              17.167357 15.606112  15.852792      -1.561244        0.246680
+uniformity_t2         -0.793786 -1.634067  -0.453945      -0.840282        1.180122
+cos_within_safe        0.794840  0.624557   0.951973      -0.170282        0.327416
+cos_within_harm        0.807393  0.403776   0.889594      -0.403617        0.485818
+cos_safe_harm          0.797773 -0.039439   0.785145      -0.837211        0.824584
+cosine_gap_macro       0.003344  0.553606   0.135638       0.550262       -0.417967
+knn_macro@10           0.692729  0.844175   0.843259       0.151446       -0.000916
+label_alignment_macro  0.397767  0.971666   0.158433       0.573899       -0.813233
+
+Descriptive results on one fixed sample; no training-seed confidence intervals.
+
+Three independently published endpoints do not identify the onset step/loss of a geometry change or a causal teacher effect. Archive steps/loss are reported separately; HF-to-run identity is unverified.

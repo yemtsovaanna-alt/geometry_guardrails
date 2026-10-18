@@ -1,0 +1,82 @@
+[
+  {
+    "number": 1,
+    "path": "guardrails_geometry_results/run_20261018T134157_442709Z/geometry_metrics_before_after.png",
+    "title": "Обзор изменения геометрии"
+  },
+  {
+    "number": 2,
+    "path": "guardrails_geometry_results/run_20261018T134157_442709Z/class_geometry_before_after.png",
+    "title": "Компактность и форма классов"
+  },
+  {
+    "number": 3,
+    "path": "guardrails_geometry_results/run_20261018T134157_442709Z/cosines_and_spectra.png",
+    "title": "Попарные косинусы и накопленная дисперсия"
+  },
+  {
+    "number": 4,
+    "path": "guardrails_geometry_results/run_20261018T134157_442709Z/knn_purity_vs_k.png",
+    "title": "Эффект сохраняется при изменении k"
+  },
+  {
+    "number": 5,
+    "path": "guardrails_geometry_results/run_20261018T134157_442709Z/pca_scatter_before_after.png",
+    "title": "Общая плоскость для двух моделей"
+  },
+  {
+    "number": 6,
+    "path": "guardrails_geometry_results/run_20261018T134157_442709Z/pca_scatter_separate_axes.png",
+    "title": "Отдельная PCA для каждой модели"
+  },
+  {
+    "number": 7,
+    "path": "guardrails_geometry_results/run_20261018T134157_442709Z/pc1_semantics_followup/pc1_label_and_length.png",
+    "title": "Связь PC1 с safety-меткой и длиной"
+  },
+  {
+    "number": 8,
+    "path": "guarails_results/analysis/head_direction_ablation.png",
+    "title": "Удаление направления классификационной головы"
+  },
+  {
+    "number": 9,
+    "path": "guarails_results/analysis/geometry_overview.png",
+    "title": "Архивный обзор конечной модели"
+  },
+  {
+    "number": 10,
+    "path": "guarails_results/analysis/head_boundary.png",
+    "title": "Локальная purity около границы решения"
+  },
+  {
+    "number": 11,
+    "path": "guarails_results/analysis/layerwise_geometry.png",
+    "title": "Геометрия по слоям конечной модели"
+  },
+  {
+    "number": 12,
+    "path": "guarails_results/analysis/projections.png",
+    "title": "PCA и t-SNE с ошибками головы"
+  },
+  {
+    "number": 13,
+    "path": "guarails_results/analysis/multiscale_neighborhoods.png",
+    "title": "Перестановочный контроль purity"
+  },
+  {
+    "number": 14,
+    "path": "guardrails_training_history/training_history.png",
+    "title": "История архивного CE+SupCon"
+  },
+  {
+    "number": 15,
+    "path": "guardrails_training_history/archive_pc1_share.png",
+    "title": "PC1 в архиве пяти обучающих режимов"
+  },
+  {
+    "number": 16,
+    "path": "guardrails_training_history/archive_class_cosines.png",
+    "title": "Внутри- и межклассовые косинусы в архиве"
+  }
+]

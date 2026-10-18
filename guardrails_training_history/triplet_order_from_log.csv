@@ -1,0 +1,7 @@
+model,adversarial_contrast,all,benign_twin,safe_harm_contrast
+e5-small-v2-frozen,0.1,29.4,78.2,51.5
+pure-classification,66.7,75.8,83.1,83.8
+pure-contrastive,84.2,81.5,85.5,78.0
+pure-joint,80.9,82.0,80.6,83.4
+pure-supcon,72.1,78.0,78.2,84.0
+pure-supcon-joint,71.6,77.9,80.6,84.0

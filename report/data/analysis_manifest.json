@@ -1,0 +1,15 @@
+{
+  "source_run": "guardrails_geometry_results/run_20261018T134157_442709Z",
+  "n": 1699,
+  "dimension": 384,
+  "geometry": "L2-normalized, float64; covariance divided by n",
+  "all_39_original_metrics_reproduced": true,
+  "max_absolute_difference": 2.842170943040401e-14,
+  "inputs": {
+    "guardrails_geometry_results/run_20261018T134157_442709Z/base_embeddings.npz": "f2e4a8af09f22d0cb763e896a0cadb8dd9db41e80818d8bdde06c3317f274a5e",
+    "guardrails_geometry_results/run_20261018T134157_442709Z/ce_embeddings.npz": "9f5bc7f2de61538282e9d853d42b8bd5c2ef925bbd2035c83dd3720b11f33772",
+    "guardrails_geometry_results/run_20261018T134157_442709Z/finetuned_embeddings.npz": "43fd1f18f0c6f17558b8fc6de91bc72c23005fb68c6078eca84bb8418d0ba165",
+    "guardrails_geometry_results/run_20261018T134157_442709Z/eval_inputs.csv": "f8614932bb538fb247f61ec1b30339b2b37918a0b0dcb63cd7aabcd9737e5cfe",
+    "guardrails_geometry_results/run_20261018T134157_442709Z/pairs.npz": "84aa4cabd8923b2578fe2e8bf81afd1627c7029d8fe724c0f1176b5745e0236d"
+  }
+}

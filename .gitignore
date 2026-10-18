@@ -1,0 +1,25 @@
+# Local environments, caches, checkpoints and duplicate archives
+.venv/
+.cache/
+__pycache__/
+.ipynb_checkpoints/
+.DS_Store
+.verification/matplotlib/
+report/qa/
+guardrails_geometry_results/embedding_cache/
+guardrails_geometry_results/*.zip
+guardrails_geometry_results/**/rq3_history/
+
+# WildGuardMix gated data and per-example derived artifacts (kept locally)
+guardrails_geometry_results/**/eval_inputs.csv
+guardrails_geometry_results/**/*_embeddings.npz
+guardrails_geometry_results/**/pairs.npz
+guardrails_geometry_results/**/pc1_semantics_followup/human_ratings_template.csv
+guardrails_geometry_results/**/pc1_semantics_followup/pair_manifest.csv
+guardrails_geometry_results/**/pc1_semantics_followup/pc1_extremes.csv
+guardrails_geometry_results/**/pc1_semantics_followup/pc1_scores.csv
+guardrails_geometry_results/**/pc1_semantics_followup/semantic_evaluation.md
+guardrails_geometry_results/**/pc1_semantics_followup/semantic_metrics.csv
+guarails_results/**/texts.csv
+guarails_results/**/closest_opposite_pairs.csv
+guarails_results/**/embeddings.npz

@@ -1,0 +1,16 @@
+{
+  "input_rows": 1725,
+  "missing_removed": 26,
+  "text_duplicates": {
+    "conflicting_rows": 0,
+    "duplicate_rows": 0
+  },
+  "truncated_before_token_dedup": 3,
+  "token_duplicates": {
+    "conflicting_rows": 0,
+    "duplicate_rows": 0
+  },
+  "clean_rows_before_sampling": 1699,
+  "analysis_rows": 1699,
+  "truncated_analysis_rows": 3
+}

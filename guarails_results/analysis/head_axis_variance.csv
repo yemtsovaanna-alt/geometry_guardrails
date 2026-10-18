@@ -1,0 +1,4 @@
+group,n,raw_variance_along_head
+all,1699,0.801854276724369
+unharmful,945,0.4775998302363339
+harmful,754,0.740281642145875

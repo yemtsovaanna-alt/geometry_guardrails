@@ -1,0 +1,19 @@
+{
+  "n_texts": 1699,
+  "original_dimensions": 384,
+  "classes": {
+    "safe": 0,
+    "harmful": 1
+  },
+  "common_axes": true,
+  "pooled_variance_share": 0.44320728143046634,
+  "within_model_variance_share": {
+    "base": 0.014652289447716274,
+    "finetuned": 0.8178521450060059
+  },
+  "separate_pca_variance_share": {
+    "base": 0.10399514479209951,
+    "finetuned": 0.8273740713401996
+  },
+  "normalized_before_pca": true
+}
